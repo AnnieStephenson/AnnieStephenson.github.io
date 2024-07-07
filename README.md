@@ -1,2 +1,2 @@
 This is the website
-<img src="Annie Stephenson photo.jpeg" alt="Alt text" width="300" />
+<img src="Annie Stephenson photo.jpeg" alt="Alt text" width="200" />

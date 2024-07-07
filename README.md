@@ -1,4 +1,4 @@
-# <span style="color: rgb(156, 144, 22); font-family: Arial, sans-serif;">Annie Stephenson</span>
+# <span style="color: rgb(156, 144, 22); font-family: 'Gill Sans', sans-serif;">Annie Stephenson</span>
 
 This is the website
 

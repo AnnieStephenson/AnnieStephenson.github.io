@@ -1,0 +1,48 @@
+# Site settings
+title: Annie Stephenson
+description: > # this means to ignore newlines until "baseurl:"
+  This is a description of my site.
+  It can span multiple lines.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://myawesomesite.com" # the base hostname & protocol for your site
+
+# Author settings
+# author:
+name: John Doe
+email: john.doe@example.com
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Permalinks
+permalink: /:categories/:year/:month/:day/:title/
+
+# Collections
+collections:
+  my_collection:
+    output: true
+
+# Custom variables
+my_variable: "Hello, world!"
+
+# Exclude from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+# Include specific files
+include:
+  - _pages
+
+# Sass options
+sass:
+  style: compressed
+
+# Configuration for GitHub Pages
+github:
+  is_project_page: false

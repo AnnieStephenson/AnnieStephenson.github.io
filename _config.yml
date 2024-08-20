@@ -1,4 +1,5 @@
-#title: Annie Stephenson
+theme: minima
+title: Annie Stephenson
 
 # Where things are
 source              : .
@@ -77,5 +78,3 @@ header_pages:
   - home.md
   - research.md
   - publications.md
-
-theme: minima

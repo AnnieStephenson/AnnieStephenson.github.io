@@ -1,4 +1,4 @@
-title: Annie Stephenson
+#title: Annie Stephenson
 
 # Where things are
 source              : .
@@ -71,5 +71,12 @@ kramdown:
   hard_wrap         : false
   footnote_nr       : 1
   show_warnings     : false
+
+# Navigation links
+header_pages:
+  - index.md
+  - about.md
+  - publications.md
+  - contact.md
 
 theme: minima

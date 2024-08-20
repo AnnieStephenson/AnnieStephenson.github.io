@@ -1,7 +1,7 @@
 .site-title {
-    color: #9C9016; /* Change this to your desired color */
+    color: #9C9016; !important; /* Force the color change */
 }
 
 .site-title:hover {
-    color: #9C9016; /* Change this to your desired hover color */
+    color: #9C9016; !important; /* Force the color change */
 }

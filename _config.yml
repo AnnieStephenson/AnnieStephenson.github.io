@@ -72,4 +72,11 @@ kramdown:
   footnote_nr       : 1
   show_warnings     : false
 
+# Nav
+nav:
+  - Home: /
+  - About: /about
+  - Publications: /publications
+  - Contact: /contact
+
 #theme: minima

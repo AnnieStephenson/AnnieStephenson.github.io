@@ -75,6 +75,5 @@ kramdown:
 
 # Navigation links
 header_pages:
-  - home.md
   - research.md
   - publications.md

@@ -74,9 +74,8 @@ kramdown:
 
 # Navigation links
 header_pages:
-  - index.md
-  - about.md
+  - home.md
+  - research.md
   - publications.md
-  - contact.md
 
 theme: minima

@@ -77,3 +77,6 @@ kramdown:
 header_pages:
   - research.md
   - publications.md
+
+include:
+  - assets/css/custom.css

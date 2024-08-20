@@ -3,8 +3,11 @@
 This is the website
 
 <img src="Annie Stephenson photo.jpeg" alt="Alt text" width="200" />
-
-<style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <style>
         nav {
             background-color: #333;
             overflow: hidden;

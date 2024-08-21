@@ -79,5 +79,12 @@ header_pages:
   - publications.md
 
 minima:
+  social_links:
+    - { platform: github,  user_url: "https://github.com/AnnieStephenson" }
+    - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=TE3JLdUAAAAJ&hl=en" }
+    - { platform: twitter, user_url: "https://x.com/abstephe" }
+    - { platform: linkedin, user_url: "https://www.linkedin.com/in/abstephenson/" }
+
+minima:
   include_stylesheets:
     - /assets/css/custom.css

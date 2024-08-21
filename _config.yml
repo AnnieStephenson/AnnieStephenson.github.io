@@ -1,6 +1,6 @@
 title: Annie Stephenson
 remote_theme: jekyll/minima
-#theme: minima
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
@@ -83,6 +83,8 @@ header_pages:
   - publications.md
 
 minima:
+  custom_css: /assets/css/custom.css
+  
   social_links:
     - { platform: github,  user_url: "https://github.com/AnnieStephenson" }
     - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=TE3JLdUAAAAJ&hl=en" }

@@ -1,4 +1,5 @@
 title: Annie Stephenson
+remote_theme: jekyll/minima
 #theme: minima
 plugins:
   - jekyll-feed

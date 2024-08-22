@@ -7,7 +7,7 @@ permalink: /code/
 <style>
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(580px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(620px, 1fr));
     gap: 5px; /* Increased gap between grid items */
     padding: 1px;
     width: 100%;

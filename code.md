@@ -15,7 +15,7 @@ permalink: /code/
     text-align: center;
 }
 .grid-item img {
-    width: 70%;  /* Image width will be % of the container's width */
+    width: 100%;  /* Image width will be % of the container's width */
     height: auto; /* Height will adjust automatically to maintain aspect ratio */
     border-radius: 10px;
 }

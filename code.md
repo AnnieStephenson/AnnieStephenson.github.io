@@ -1,8 +1,30 @@
 ---
 layout: page
-title: "code"
+title: " "
 permalink: /code/
 ---
+
+<style>
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 30px; /* Increased gap between grid items */
+    padding: 20px;
+}
+.grid-item {
+    text-align: center;
+}
+.grid-item img {
+    width: 50%;  /* Image width will be % of the container's width */
+    height: auto; /* Height will adjust automatically to maintain aspect ratio */
+    border-radius: 10px;
+}
+.grid-item a {
+    text-decoration: none;
+    color: black;
+}
+</style>
+
 
 <div class="grid-container">
     <div class="grid-item">

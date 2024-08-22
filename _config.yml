@@ -92,6 +92,5 @@ minima:
     - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=TE3JLdUAAAAJ&hl=en" }
     - { platform: twitter, user_url: "https://x.com/abstephe" }
     - { platform: linkedin, user_url: "https://www.linkedin.com/in/abstephenson/" }
-    - {platform: mail  # same as SVG filename.
-       user_url: "mailto:stephenson@princeton.edu"  # URL of profile page}
+    - {platform: mail, user_url: "mailto:stephenson@princeton.edu"}
 

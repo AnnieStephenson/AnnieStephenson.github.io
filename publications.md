@@ -1,5 +1,5 @@
 ---
 layout: page
-title: "Publications"
-permalink: /publications/
+title: "media"
+permalink: /media/
 ---

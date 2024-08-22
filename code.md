@@ -7,7 +7,7 @@ permalink: /code/
 <style>
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 5px; /* Increased gap between grid items */
     padding: 1px;
     width: 100%;
@@ -16,8 +16,8 @@ permalink: /code/
     text-align: left;
 }
 .grid-item img {
-    max-width: 100%;  /* Allow the image to shrink if needed */
-    width: 500px;     /* Set a default width */
+    width: 100%;  /* Allow the image to shrink if needed */
+    max-width: 600px;     /* Set a default width */
     height: auto;     /* Maintain aspect ratio */
     border-radius: 1px;
 }

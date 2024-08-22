@@ -8,8 +8,9 @@ permalink: /code/
 .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 10px; /* Increased gap between grid items */
+    gap: 1px; /* Increased gap between grid items */
     padding: 1px;
+    width: 80%;
 }
 .grid-item {
     text-align: center;

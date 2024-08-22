@@ -3,3 +3,7 @@
     background-color: transparent;
     border-bottom: none;
 }
+
+.page-link.active {
+  font-weight: bold;
+}

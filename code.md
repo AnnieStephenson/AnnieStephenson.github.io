@@ -10,7 +10,7 @@ permalink: /code/
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 5px; /* Increased gap between grid items */
     padding: 1px;
-    width: 100%;
+    width: 150%;
 }
 .grid-item {
     text-align: center;

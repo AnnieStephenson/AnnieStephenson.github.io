@@ -9,7 +9,7 @@ permalink: /code/
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 10px; /* Increased gap between grid items */
-    padding: 10px;
+    padding: 1px;
 }
 .grid-item {
     text-align: center;
@@ -17,7 +17,7 @@ permalink: /code/
 .grid-item img {
     width: 100%;  /* Image width will be % of the container's width */
     height: auto; /* Height will adjust automatically to maintain aspect ratio */
-    border-radius: 10px;
+    border-radius: 1px;
 }
 </style>
 

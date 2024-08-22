@@ -82,7 +82,7 @@ header_pages:
   - research.md
   - media.md
   - code.md
-  - science communication.md
+  - science-communication.md
 
 minima:
   custom_css: /assets/css/custom.css

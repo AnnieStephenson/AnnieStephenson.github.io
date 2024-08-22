@@ -13,7 +13,7 @@ permalink: /code/
     width: 150%;
 }
 .grid-item {
-    text-align: center;
+    text-align: left;
 }
 .grid-item img {
     width: 100%;  /* Image width will be % of the container's width */

@@ -17,7 +17,7 @@ permalink: /code/
 }
 .grid-item img {
     max-width: 100%;  /* Allow the image to shrink if needed */
-    width: 300px;     /* Set a default width */
+    width: 500px;     /* Set a default width */
     height: auto;     /* Maintain aspect ratio */
     border-radius: 1px;
 }

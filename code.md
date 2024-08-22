@@ -10,14 +10,15 @@ permalink: /code/
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 5px; /* Increased gap between grid items */
     padding: 1px;
-    width: 150%;
+    width: 100%;
 }
 .grid-item {
     text-align: left;
 }
 .grid-item img {
-    width: 100%;  /* Image width will be % of the container's width */
-    height: auto; /* Height will adjust automatically to maintain aspect ratio */
+    max-width: 100%;  /* Allow the image to shrink if needed */
+    width: 300px;     /* Set a default width */
+    height: auto;     /* Maintain aspect ratio */
     border-radius: 1px;
 }
 </style>

@@ -80,7 +80,9 @@ kramdown:
 # Navigation links
 header_pages:
   - research.md
-  - publications.md
+  - media.md
+  - code.md
+  - science communication.md
 
 minima:
   custom_css: /assets/css/custom.css

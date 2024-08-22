@@ -85,7 +85,9 @@ header_pages:
   - science-communication.md
 
 minima:
-  custom_css: /assets/css/custom.css
+
+  include:
+    - 'assets/css/custom.css'
   
   social_links:
     - { platform: github,  user_url: "https://github.com/AnnieStephenson" }

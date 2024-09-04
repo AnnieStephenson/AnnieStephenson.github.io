@@ -14,9 +14,9 @@ $lm-brand-color:           #4a463a !default;//#828282 !default;
 $lm-brand-color-light:     lighten($lm-brand-color, 40%) !default;
 $lm-brand-color-dark:      darken($lm-brand-color, 5%) !default;
 
-$lm-site-title-color:      $lm-brand-color-dark !default;
+$lm-site-title-color:      #a19d23//$lm-brand-color-dark !default;
 
-$lm-text-color:            #a88523 !default;//#111111 !default;
+$lm-text-color:            #4a463a !default;//#111111 !default;
 $lm-background-color:      #fdfdfd !default;
 $lm-code-background-color: #eeeeff !default;
 

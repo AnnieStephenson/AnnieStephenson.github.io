@@ -7,3 +7,8 @@
 .navbar a.active {
   font-weight: bold;
 }
+
+.page-link.active {
+  font-weight: bold;
+  color: #000; /* You can customize the color or other styles here */
+}

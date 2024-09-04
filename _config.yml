@@ -80,8 +80,8 @@ kramdown:
 # Navigation links
 header_pages:
   - research.md
-  - media.md
   - code.md
+  - media.md
   - science-communication.md
 
 minima:

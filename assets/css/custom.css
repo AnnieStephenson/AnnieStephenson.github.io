@@ -4,6 +4,6 @@
     border-bottom: none;
 }
 
-.page-link.active {
-  text-decoration: underline; !important
+.navbar a.active {
+  font-weight: bold;
 }

@@ -3,7 +3,7 @@ layout: page
 title: "code"
 permalink: /code/
 ---
-<iframe src="https://github.com/manoharan-lab/structural-color/blob/master/tutorials/tutorial.ipynb" width="100%" height="600px" frameborder="0"></iframe>
+<iframe src="https://nbviewer.jupyter.org/github/manoharan-lab/structural-color/blob/master/tutorials/tutorial.ipynb" width="100%" height="600px" frameborder="0"></iframe>
 
 <style>
 .grid-container {

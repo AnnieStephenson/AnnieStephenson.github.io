@@ -6,37 +6,52 @@ permalink: /code/
 <iframe src="https://nbviewer.jupyter.org/github/manoharan-lab/structural-color/blob/master/tutorials/tutorial.ipynb" width="100%" height="300px" frameborder="0"></iframe>
 
 <style>
-.grid-container {
+  .image-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(620px, 1fr));
-    gap: 5px; /* Increased gap between grid items */
-    padding: 1px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+    margin-bottom: 40px;
+  }
+
+  .image-grid-item {
+    position: relative;
+    text-align: center;
     width: 100%;
-}
-.grid-item {
-    text-align: left;
-}
-.grid-item img {
-    width: 100%;  /* Allow the image to shrink if needed */
-    max-width: 500px;     /* Set a default width */
-    height: auto;     /* Maintain aspect ratio */
-    border-radius: 1px;
-}
+  }
+
+  .image-grid img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .caption {
+    margin-top: 10px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 14px;
+    color: black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
 </style>
 
-
-<div class="grid-container">
-    <div class="grid-item">
-        <a href="https://example.com/photo1">
-            <img src="/images/code/rplace.png" alt="Photo 1">
-            <p>Caption for Photo 1</p>
-        </a>
-    </div>
-    <div class="grid-item">
-        <a href="https://example.com/photo2">
-            <img src="/images/code/colorpy.png" alt="Photo 2">
-            <p>Caption for Photo 2</p>
-        </a>
-    </div>
-    <!-- Add more grid items as needed -->
+<div class="image-grid">
+  <div class="image-grid-item">
+    <img src="path_to_image1.jpg" alt="Image 1">
+    <div class="caption">Caption for Image 1</div>
+  </div>
+  <div class="image-grid-item">
+    <img src="path_to_image2.jpg" alt="Image 2">
+    <div class="caption">Caption for Image 2</div>
+  </div>
+  <div class="image-grid-item">
+    <img src="path_to_image3.jpg" alt="Image 3">
+    <div class="caption">Caption for Image 3</div>
+  </div>
+  <div class="image-grid-item">
+    <img src="path_to_image4.jpg" alt="Image 4">
+    <div class="caption">Caption for Image 4</div>
+  </div>
 </div>

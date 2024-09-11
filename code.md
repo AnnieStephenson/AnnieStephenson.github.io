@@ -26,12 +26,13 @@ permalink: /code/
   }
 
   .caption {
-    margin-top: 10px;
+    margin-top: 0;
     background-color: white;
     padding: 10px;
     border-radius: 8px;
     font-size: 14px;
     color: black;
+    width: 100%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
 </style>

@@ -39,23 +39,23 @@ permalink: /code/
 
 <div class="image-grid">
   <div class="image-grid-item">
-    <img src="images/code/rplacem.jpeg" alt="Image 1">
+    <img src="/images/code/rplacem.jpeg" alt="Image 1">
     <div class="caption">Caption for Image 1</div>
   </div>
   <div class="image-grid-item">
-    <img src="images/code/pymie.jpeg" alt="Image 2">
+    <img src="/images/code/pymie.jpeg" alt="Image 2">
     <div class="caption">Caption for Image 2</div>
   </div>
   <div class="image-grid-item">
-    <img src="images/code/mstm.jpeg" alt="Image 3">
+    <img src="/images/code/mstm.jpeg" alt="Image 3">
     <div class="caption">Caption for Image 3</div>
   </div>
   <div class="image-grid-item">
-    <img src="images/code/colorpy.jpeg" alt="Image 4">
+    <img src="/images/code/colorpy.jpeg" alt="Image 4">
     <div class="caption">Caption for Image 4</div>
   </div>
     <div class="image-grid-item">
-    <img src="images/code/structural-color.jpeg" alt="Image 5">
+    <img src="/images/code/structural-color.jpeg" alt="Image 5">
     <div class="caption">Caption for Image 5</div>
   </div>
 </div>

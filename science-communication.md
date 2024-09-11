@@ -1,5 +1,5 @@
 ---
 layout: page
-title: "science communication"
+title: "SCIENCE COMMUNICATION"
 permalink: /science-communication/
 ---

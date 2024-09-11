@@ -4,6 +4,8 @@ title: "CODE"
 permalink: /code/
 ---
 
+insert an overview here talking about what the projects are intended for as a whole. Also mention tools used and potentially certifications. 
+
 <style>
   .image-grid {
     display: grid;

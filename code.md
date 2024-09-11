@@ -22,14 +22,14 @@ permalink: /code/
   .image-grid img {
     width: 200px; /* Set the width of all images */
     height: auto; 
-    border-radius: 8px;
+    border-radius: 0px;
   }
 
   .caption {
     margin-top: 0;
     background-color: white;
     padding: 10px;
-    border-radius: 8px;
+    border-radius: 0px;
     font-size: 12px;
     color: black;
     width: 100%;

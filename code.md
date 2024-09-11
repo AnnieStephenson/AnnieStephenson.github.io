@@ -28,7 +28,7 @@ permalink: /code/
   .caption {
     margin-top: 0;
     background-color: white;
-    padding: 10px;
+    padding: 0px;
     border-radius: 0px;
     font-size: 12px;
     color: black;

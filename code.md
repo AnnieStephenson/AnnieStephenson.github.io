@@ -55,7 +55,7 @@ permalink: /code/
     <div class="caption">Caption for Image 4</div>
   </div>
     <div class="image-grid-item">
-    <img src="images/code/colorpy.jpeg" alt="Image 5">
+    <img src="images/code/structural-color.jpeg" alt="Image 5">
     <div class="caption">Caption for Image 5</div>
   </div>
 </div>

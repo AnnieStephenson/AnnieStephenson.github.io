@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "media"
+title: "MEDIA"
 permalink: /media/
 ---
 

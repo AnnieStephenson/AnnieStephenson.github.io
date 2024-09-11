@@ -21,8 +21,8 @@ permalink: /code/
   }
 
   .image-grid img {
-    max-width: 100%;
-    height: auto;
+    width: 200px; /* Set the width of all images to 300px */
+    height: auto; 
     border-radius: 8px;
   }
 
@@ -39,19 +39,23 @@ permalink: /code/
 
 <div class="image-grid">
   <div class="image-grid-item">
-    <img src="path_to_image1.jpg" alt="Image 1">
+    <img src="rplacem.jpg" alt="Image 1">
     <div class="caption">Caption for Image 1</div>
   </div>
   <div class="image-grid-item">
-    <img src="path_to_image2.jpg" alt="Image 2">
+    <img src="pymie.jpg" alt="Image 2">
     <div class="caption">Caption for Image 2</div>
   </div>
   <div class="image-grid-item">
-    <img src="path_to_image3.jpg" alt="Image 3">
+    <img src="mstm.jpg" alt="Image 3">
     <div class="caption">Caption for Image 3</div>
   </div>
   <div class="image-grid-item">
-    <img src="path_to_image4.jpg" alt="Image 4">
+    <img src="colorpy.jpg" alt="Image 4">
     <div class="caption">Caption for Image 4</div>
+  </div>
+    <div class="image-grid-item">
+    <img src="colorpy.jpg" alt="Image 5">
+    <div class="caption">Caption for Image 5</div>
   </div>
 </div>

@@ -20,7 +20,7 @@ permalink: /code/
   }
 
   .image-grid img {
-    width: 200px; /* Set the width of all images to 300px */
+    width: 200px; /* Set the width of all images */
     height: auto; 
     border-radius: 8px;
   }
@@ -32,7 +32,7 @@ permalink: /code/
     border-radius: 8px;
     font-size: 14px;
     color: black;
-    width: 100%;
+    width: 200px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
 </style>

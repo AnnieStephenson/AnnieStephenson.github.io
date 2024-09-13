@@ -33,7 +33,7 @@ insert an overview here talking about what the projects are intended for as a wh
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    background-color: rgb(235, 231, 225);
+    background-color: rgb(240, 236, 230);
     box-sizing: border-box;
     padding: 20px;
     border-radius: 0px;

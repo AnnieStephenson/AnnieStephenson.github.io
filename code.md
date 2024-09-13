@@ -29,6 +29,9 @@ insert an overview here talking about what the projects are intended for as a wh
 
   .caption {
     margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
     background-color: white;
     box-sizing: border-box;
     padding: 20px;

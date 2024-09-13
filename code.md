@@ -25,7 +25,7 @@ insert an overview here talking about what the projects are intended for as a wh
     width: 200px; /* Set the width of all images */
     height: auto; 
     border-radius: 0px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 4px 0px 8px rgba(0, 0, 0, 0.1), -4px 0px 8px rgba(0, 0, 0, 0.1), 0px -4px 8px rgba(0, 0, 0, 0.1); /* Remove shadow from the bottom */
   }
 
   .caption {

@@ -21,22 +21,11 @@ insert an overview here talking about what the projects are intended for as a wh
     width: 100%;
   }
 
-  .image-grid img::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 10px; /* Makes room for no shadow at the bottom */
-    z-index: -1;
-    background: white;
-    box-shadow: 4px 0px 8px rgba(0, 0, 0, 0.1), -4px 0px 8px rgba(0, 0, 0, 0.1), 0px -4px 8px rgba(0, 0, 0, 0.1); /* Shadow only on top and sides */
-  }
-
   .image-grid img {
     width: 200px; /* Set the width of all images */
     height: auto; 
     border-radius: 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
 
   .caption {

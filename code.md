@@ -3,6 +3,13 @@ layout: page
 title: "CODE"
 permalink: /code/
 ---
+<style>
+  .page-content {
+    max-width: 1200px; /* Or whatever wider width you want */
+    margin: 0 auto;
+    padding: 20px;
+  }
+</style>
 
 insert an overview here talking about what the projects are intended for as a whole. Also mention tools used and potentially certifications. 
 

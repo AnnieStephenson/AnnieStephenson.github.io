@@ -175,3 +175,18 @@ permalink: /bookmarks-square/
     transition: transform 0.2s, box-shadow 0.2s;
   }
 </style>
+
+
+<div class="wider-page-content">
+  <p>This is some content inside the wider page.</p>
+</div>
+
+<style>
+  /* Only apply styles to the custom wider page content */
+  .wider-page-content {
+    max-width: 1200px !important; /* Set the new max width */
+    width: 100% !important; /* Ensure it stretches */
+    margin: 0 auto; /* Center the content */
+    padding: 20px;
+  }
+</style>

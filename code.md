@@ -68,3 +68,86 @@ insert an overview here talking about what the projects are intended for as a wh
     <div class="caption">Caption for Image 5</div>
   </div>
 </div>
+
+# My Square Bookmarks
+
+<div class="square-bookmark-container">
+  
+  <a href="/project-1/" class="square-bookmark-link">
+    <div class="square-bookmark-card">
+      <img src="image-placeholder.jpg" alt="Project 1 Image" class="square-bookmark-image">
+      <div class="square-bookmark-content">
+        <div class="square-bookmark-title">Project 1</div>
+        <div class="square-bookmark-description">
+          A description of Project 1. This is a short blurb about what the project entails.
+        </div>
+      </div>
+    </div>
+  </a>
+
+  <a href="/project-2/" class="square-bookmark-link">
+    <div class="square-bookmark-card">
+      <img src="another-image.jpg" alt="Project 2 Image" class="square-bookmark-image">
+      <div class="square-bookmark-content">
+        <div class="square-bookmark-title">Project 2</div>
+        <div class="square-bookmark-description">
+          A description of Project 2. Brief details about this project.
+        </div>
+      </div>
+    </div>
+  </a>
+
+</div>
+
+<style>
+  .square-bookmark-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .square-bookmark-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    max-width: 300px; /* Max width for a square design */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    overflow: hidden; /* Ensures the image and content stay inside the card */
+  }
+
+  .square-bookmark-image {
+    width: 100%; /* Image takes full width */
+    height: 200px;
+    object-fit: cover; /* Keeps the image in proportion */
+  }
+
+  .square-bookmark-content {
+    padding: 20px;
+    text-align: center; /* Center the text content */
+  }
+
+  .square-bookmark-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+  }
+
+  .square-bookmark-description {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 10px;
+  }
+
+  .square-bookmark-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+</style>
+
+
+

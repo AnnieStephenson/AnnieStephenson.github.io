@@ -3,8 +3,9 @@ layout: page
 title: "CODE"
 permalink: /code/
 ---
+
 <style>
-   .content-area{
+   .container{
     max-width: 1000px !important; /* Set the new max width */
     width: 100% !important; /* Ensure it stretches */
     margin: 0 auto; /* Center the content */

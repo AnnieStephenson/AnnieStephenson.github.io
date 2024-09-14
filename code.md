@@ -4,9 +4,10 @@ title: "CODE"
 permalink: /code/
 ---
 <style>
-  .page-content {
-    max-width: 1200px; /* Or whatever wider width you want */
-    margin: 0 auto;
+  .wrapper, .container, .page-content {
+    max-width: 1200px !important; /* Set the new max width */
+    width: 100% !important; /* Ensure it stretches */
+    margin: 0 auto; /* Center the content */
     padding: 20px;
   }
 </style>

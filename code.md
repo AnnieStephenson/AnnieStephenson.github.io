@@ -46,8 +46,10 @@ insert an overview here talking about what the projects are intended for as a wh
 
 <div class="image-grid">
   <div class="image-grid-item">
+    <a href="/project1/">
     <img src="/images/code/rplacem.jpeg" alt="Image 1">
     <div class="caption">Caption for Image 1</div>
+    </a>
   </div>
   <div class="image-grid-item">
     <img src="/images/code/pymie.jpeg" alt="Image 2">

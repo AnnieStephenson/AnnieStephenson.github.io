@@ -38,7 +38,7 @@ insert an overview here talking about what the projects are intended for as a wh
     padding: 20px;
     border-radius: 0px;
     font-size: 12px;
-    color: black;
+    color: rgb(40, 40, 40);
     width: 200px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }

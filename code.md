@@ -70,8 +70,15 @@ insert an overview here talking about what the projects are intended for as a wh
 </div>
 
 # My Square Bookmarks
+---
+layout: page
+title: "Square Bookmarks"
+permalink: /bookmarks-square/
+---
 
-<div class="square-bookmark-container">
+# My Square Bookmarks
+
+<div class="square-bookmark-grid">
   
   <a href="/project-1/" class="square-bookmark-link">
     <div class="square-bookmark-card">
@@ -97,14 +104,26 @@ insert an overview here talking about what the projects are intended for as a wh
     </div>
   </a>
 
+  <a href="/project-3/" class="square-bookmark-link">
+    <div class="square-bookmark-card">
+      <img src="third-image.jpg" alt="Project 3 Image" class="square-bookmark-image">
+      <div class="square-bookmark-content">
+        <div class="square-bookmark-title">Project 3</div>
+        <div class="square-bookmark-description">
+          A description of Project 3. Brief details about this project.
+        </div>
+      </div>
+    </div>
+  </a>
+
 </div>
 
 <style>
-  .square-bookmark-container {
-    display: flex;
-    flex-direction: column;
+  .square-bookmark-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 20px;
-    align-items: center;
+    justify-items: center;
   }
 
   .square-bookmark-card {
@@ -148,6 +167,3 @@ insert an overview here talking about what the projects are intended for as a wh
     transition: transform 0.2s, box-shadow 0.2s;
   }
 </style>
-
-
-

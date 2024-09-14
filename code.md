@@ -33,12 +33,12 @@ insert an overview here talking about what the projects are intended for as a wh
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(248, 245, 240);
     box-sizing: border-box;
     padding: 20px;
     border-radius: 0px;
     font-size: 12px;
-    color: rgb(40, 40, 40);
+    color: rgb(60, 60, 60);
     width: 200px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }

@@ -11,6 +11,9 @@ https://www.ossmfoundation.org/wp-content/uploads/2021/01/stephenson-annie-artic
 
 https://gsas.harvard.edu/news/veritalk-wild-blue-yonder
 
+https://manoharan.seas.harvard.edu/news/annie-takes-home-top-science-art-prize-ap-fest-2018
+
+
 
 
 

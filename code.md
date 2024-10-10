@@ -6,7 +6,7 @@ permalink: /code/
 
 <style>
    .container{
-    max-width: 1000px !important; /* Set the new max width */
+    max-width: 2000px !important; /* Set the new max width */
     width: 100% !important; /* Ensure it stretches */
     margin: 0 auto; /* Center the content */
     padding: 20px;
@@ -17,9 +17,12 @@ insert an overview here talking about what the projects are intended for as a wh
 
 <style>
   .image-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr); */
     gap: 20px;
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
     justify-items: center;
     margin-bottom: 40px;
   }
@@ -27,7 +30,7 @@ insert an overview here talking about what the projects are intended for as a wh
   .image-grid-item {
     position: relative;
     text-align: center;
-    width: 100%;
+    /* width: 100%; */
   }
 
   .image-grid img {
@@ -79,13 +82,12 @@ insert an overview here talking about what the projects are intended for as a wh
 </div>
 
 # My Square Bookmarks
----
+
+<!---
 layout: page
 title: "Square Bookmarks"
 permalink: /bookmarks-square/
----
-
-# My Square Bookmarks
+--->
 
 <div class="square-bookmark-grid">
   

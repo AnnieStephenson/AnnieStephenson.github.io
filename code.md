@@ -21,7 +21,7 @@ insert an overview here talking about what the projects are intended for as a wh
     grid-template-columns: repeat(3, 1fr); */
     gap: 20px;
     display: flex;
-    max-width: 100%;
+    width: 100vw;
     flex-wrap: wrap;
     justify-items: center;
     margin-bottom: 40px;

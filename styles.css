@@ -1,0 +1,359 @@
+body {
+    width: 100vw;
+    min-height: 100vh;
+    font-size: 16px;
+}
+
+
+.header {
+    display: flex;
+    width: 100%;
+    font-family: 'Inerta', sans-serif;
+    justify-content: left;
+    gap: 5vw;
+    font-size: 20px;
+    font-weight: 300;
+    color: #A09D3C;
+    padding-top: 15px; 
+    padding-left: 15vw;
+    padding-bottom: 50px; 
+}
+
+.header-link {
+    text-decoration: none; /* No underline by default */
+    color: inherit; /* Inherit the color from the parent element */
+}
+
+.header-link:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.nav {
+    display: flex;
+    gap: 1rem;
+    font-family: 'Inerta', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    letter-spacing: 0.05em;
+    color: #323232; 
+    padding-top: 5px; 
+}
+
+.nav a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+.nav a.light-title {
+    color: #949494;
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3vw;
+    padding-top: 20px;
+    width: 70%;
+    margin: 0 auto; 
+}
+
+.image-gallery_card {
+    width: 18rem;
+    height: 20rem;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.image-gallery_card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+
+.image-gallery_card-short {
+    width: 18rem;
+    height: 15rem;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.image-gallery_card-short:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+
+.image-gallery_card_image {
+    width: 18rem;
+    height: 10rem;
+    overflow: hidden;
+}
+
+.image-gallery_card_image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image-gallery_card_caption {
+    padding: 5px; 
+    height: 75%;
+    font-family: 'Avenir', sans-serif;
+    font-size: 14px;
+}
+
+.image-gallery_card_caption_title{
+    padding: 3px; 
+    font-family: 'Avenir', sans-serif;
+    color: #8a8a8a;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.image-gallery_card_caption_description{
+    padding: 3px; 
+    font-family: 'Avenir', sans-serif;
+    color: #6e6e6e;
+    font-weight: 300;
+    font-size: 12px;
+    overflow: visible;
+}
+
+.text-block {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    flex-wrap: wrap;
+    padding-top: 0px;
+    padding-left: 3vw;
+    width: 40%;
+    margin: 0; 
+    font-size: 15px;
+    font-weight: 200;
+    color:#656565;
+    font-family: 'Avenir', sans-serif
+}
+
+.text-block b,
+.text-block strong {
+    font-weight: bold;
+}
+
+.text-block i,
+.text-block em {
+    font-style: italic;
+}
+
+.text-block a:hover {
+    text-decoration: underline;
+}
+
+.text-block-bookmark {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 0vw;
+    padding-top: 0px;
+    padding-left: 31vw;
+    padding-bottom: 5vh;
+    width: 77%;
+    margin: 0; 
+    font-size: 15px;
+    font-weight: 300;
+    color:#777777;
+    font-family: 'Avenir', sans-serif;
+    text-align: justify;
+}
+
+.text-block-bookmark i,
+.text-block-bookmark em {
+    font-style: italic;
+}
+
+.text-block-research{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 0vw;
+    padding-top: 0px;
+    padding-left: 15vw;
+    padding-bottom: 0vh;
+    width: 77%;
+    margin: 0; 
+    font-size: 15px;
+    font-weight: 300;
+    color:#777777;
+    font-family: 'Avenir', sans-serif;
+    text-align: justify;
+}
+
+.text-heading {
+    padding-top: 3vh;
+    padding-bottom: 15vh;
+    padding-left: 3vw;
+    width: 70%;
+    font-size: 20px;
+    font-weight: 100;
+    color:#6e6e6e;
+    font-family: 'Avenir', sans-serif
+}
+
+.text-title {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 3vw;
+    padding-top: 7vh;
+    padding-left: 0vw;
+    width: 70%;
+    margin: 0 auto; 
+    font-size: 18px;
+    font-weight: 600;
+    color:#8a8a8a;
+    font-family: 'Avenir', sans-serif
+}
+
+.subpage-title {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 0vh;
+    padding-left: 0vw;
+    margin: 0; 
+    font-size: 18px;
+    font-weight: 600;
+    color:#8a8a8a;
+    font-family: 'Avenir', sans-serif
+}
+
+.footer {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between each logo */
+}
+
+.social-media a img {
+    width: 25px; /* Set the size of the images */
+    height: auto;
+    transition: transform 0.3s; /* Optional: animation for hover effect */
+}
+
+.social-media a img:hover {
+    transform: scale(1.1); /* Optional: slightly enlarge on hover */
+}
+
+.social-media-main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    justify-content: flex-start;
+    padding-top: 2vw;
+    padding-left: 15vw;
+    gap: 0.3vw; /* Space between each logo */
+    flex-direction: column;
+}
+
+.social-media-item {
+    font-family: 'Avenir', sans-serif;
+    font-size: 13px;
+    color: #777;
+    width: 200px;
+    display: flex; /* This aligns the image and text in a row */
+    align-items: center; /* Vertically aligns the image and text */
+    gap: 10px; /* Adds spacing between the image and text */
+}
+
+.social-media-main a img {
+    width:20px; /* Set the size of the images */
+    height: auto;
+    padding-right: 5px;
+    transition: transform 0.3s; /* Optional: animation for hover effect */
+}
+
+.social-media-item span {
+    white-space: nowrap; /* Prevents text from breaking onto two lines */
+}
+
+.social-media-main a img:hover {
+    transform: scale(1.1); /* Optional: slightly enlarge on hover */
+}
+
+.bookmark-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 31vw;
+    gap: 3vw;
+  }
+
+  .bookmark-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 0px;
+    max-width: 700px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    overflow: hidden;
+  }
+
+  .bookmark-content {
+    padding: 20px;
+    flex: 1;
+    font-family: 'Avenir', sans-serif;
+  }
+
+  .bookmark-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    color: #333;
+  }
+
+  .bookmark-description {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 15px;
+  }
+
+  .bookmark-author {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: #666;
+    overflow: hidden;
+  }
+
+  .bookmark-author img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+  }
+
+  .bookmark-image {
+    margin-left: 20px;
+    overflow: hidden;
+  }
+
+  .bookmark-image img {
+    width: 210px;
+    object-fit: cover;
+    border-radius: 0px;
+    display: block;
+  }
+
+  .bullet-list {
+    list-style-type: circle; /* Set bullet type to disc */
+    padding-left: 1vw; /* Adjust left padding to indent the list */
+    margin: 0; /* Adjust margins if needed */
+    gap: 10vw;
+  }

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" version="1.1" viewBox="0 0 585 585">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #969696;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <!-- Generator: Adobe Illustrator 28.7.1, SVG Export Plug-In . SVG Version: 1.2.0 Build 142)  -->
+  <g>
+    <g id="svg4776">
+      <sodipodi:namedview id="base" bordercolor="#666666" borderopacity="1.0" inkscape:current-layer="layer1" inkscape:cx="115.45615" inkscape:cy="142.1276" inkscape:document-units="px" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:window-height="1177" inkscape:window-maximized="1" inkscape:window-width="1920" inkscape:window-x="-8" inkscape:window-y="-8" inkscape:zoom="2.8" pagecolor="#ffffff" showgrid="false"/>
+      <g id="layer1" inkscape:groupmode="layer" inkscape:label="Layer 1">
+        <circle id="path3794" class="cls-1" cx="292.3" cy="292.4" r="292.5"/>
+        <g id="layer1-7" inkscape:label="Calque 1">
+          <g id="g6564" inkscape:export-filename="C:\Users\lguyot\Desktop\icon-email.png" inkscape:export-xdpi="90" inkscape:export-ydpi="90">
+            <path id="path4323" class="cls-2" d="M128.2,162.8c-8,0-14.6,6.6-14.6,14.6v229.9c0,8,6.6,14.6,14.6,14.6h328.4c8,0,14.6-6.6,14.6-14.6v-229.9c0-8-6.6-14.6-14.6-14.6H128.2ZM167,197.8h250.5l-125.3,109.4-125.3-109.4ZM442,215.2v161.7l-91.6-81.7,91.6-80ZM142.7,215.3l92,80.4-92,82v-162.4ZM328.2,314.6l87.1,77.7h-245.1l86.6-77.2,25.8,22.6c5.5,4.8,13.7,4.8,19.2,0l26.3-23h0Z" inkscape:original="M 1005.1191 267.86133 C 1004.3037 267.86127 1003.6425 268.5206 1003.6426 269.33594 L 1003.6426 298.85547 C 1003.6423 299.67103 1004.3035 300.33405 1005.1191 300.33398 L 1047.291 300.33398 C 1048.1066 300.33405 1048.768 299.67103 1048.7676 298.85547 L 1048.7676 269.33594 C 1048.7676 268.5206 1048.1064 267.86127 1047.291 267.86133 L 1005.1191 267.86133 z M 1009.0527 271.55273 L 1043.3438 271.55273 L 1026.2012 286.53125 L 1009.0527 271.55273 z M 1045.8145 273.31445 L 1045.8145 295.83594 L 1033.0547 284.46094 L 1045.8145 273.31445 z M 1006.5957 273.32617 L 1019.4043 284.51758 L 1006.5957 295.9375 L 1006.5957 273.32617 z M 1030.8145 286.41797 L 1043.0449 297.32227 L 1009.4805 297.32227 L 1021.6465 286.47656 L 1025.2266 289.60547 C 1025.7827 290.09097 1026.6118 290.09097 1027.168 289.60547 L 1030.8145 286.41797 z " inkscape:radius="0.39676574" sodipodi:type="inkscape:offset"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

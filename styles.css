@@ -1,3 +1,9 @@
+
+:root {
+    --main-left-margin: 15vw;
+  }
+
+
 body {
     width: 100vw;
     min-height: 100vh;
@@ -15,8 +21,8 @@ body {
     font-weight: 300;
     color: #A09D3C;
     padding-top: 15px; 
-    padding-left: 15vw;
-    padding-bottom: 50px; 
+    padding-left: 15vw;/*15vw;*/
+    padding-bottom: 4rem;/*50px;*/
 }
 
 .header-link {
@@ -36,6 +42,7 @@ body {
     font-size: 12px;
     letter-spacing: 0.05em;
     color: #323232; 
+    padding-left: 2rem;
     padding-top: 5px; 
 }
 
@@ -356,4 +363,10 @@ body {
     padding-left: 1vw; /* Adjust left padding to indent the list */
     margin: 0; /* Adjust margins if needed */
     gap: 10vw;
+  }
+
+  @media (max-width: 768px) {
+    :root {
+      --main-left-margin: 5vw;
+    }
   }

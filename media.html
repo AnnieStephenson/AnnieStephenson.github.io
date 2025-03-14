@@ -97,24 +97,13 @@
         </div>
           
     </main>
-    <footer class="footer">
-        <div class="social-media">
-            <a href="https://scholar.google.com/citations?user=TE3JLdUAAAAJ&hl=en" target="_blank">
-                <img src="images/googlescholar.svg" alt="Google Scholar Logo">
-            </a>
-            <a href="https://github.com/AnnieStephenson" target="_blank">
-                <img src="images/github.svg" alt="Github Logo">
-            </a>
-            <a href="https://www.linkedin.com/in/abstephenson/" target="_blank">
-                <img src="images/linkedin.svg" alt="LinkedIn Logo">
-            </a>
-            <a href="https://x.com/abstephe" target="_blank">
-                <img src="images/twitter.svg" alt="Twitter Logo">
-            </a>
-            <a href="mailto:stephenson@princeton.edu" target="_blank">
-                <img src="images/mail.svg" alt="Mail Logo">
-            </a>
-        </div>
-    </footer>
+    <div id="footer-placeholder"></div>
+    <script>
+    fetch("footer.html")
+        .then(response => response.text())
+        .then(data => {
+        document.getElementById("footer-placeholder").innerHTML = data;
+        });
+    </script>
 </body>
 </html>

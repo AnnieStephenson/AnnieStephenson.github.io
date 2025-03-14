@@ -1,6 +1,7 @@
 
 :root {
     --main-left-margin: 15vw;
+    --padding-align-nav: 33vw;
   }
 
 
@@ -164,7 +165,7 @@ body {
     flex-wrap: wrap;
     gap: 0vw;
     padding-top: 0px;
-    padding-left: 31vw;
+    padding-left: var(--padding-align-nav);
     padding-bottom: 5vh;
     width: 77%;
     margin: 0; 
@@ -296,7 +297,7 @@ body {
 .bookmark-container {
     display: flex;
     flex-direction: column;
-    padding-left: 31vw;
+    padding-left: var(--padding-align-nav);
     gap: 3vw;
   }
 

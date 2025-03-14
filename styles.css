@@ -126,6 +126,13 @@ body {
       z-index: 100;
       border-top: 1px solid #e0e0e0;
     }
+
+    .nav a {
+        width: 100%;          /* 👈 ensures background fills behind all text */
+        padding: 0.5rem 0;
+        background-color: #f9f9f9; /* optional: helps ensure background is consistent */
+        text-decoration: none;
+      }
   
     .nav div {
       width: 100%;

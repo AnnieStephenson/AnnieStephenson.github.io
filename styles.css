@@ -12,6 +12,30 @@ body {
     font-size: 16px;
 }
 
+/* Default: Side by side */
+.responsive-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  /* On small screens: Stack vertically */
+  @media screen and (max-width: 768px) {
+    .responsive-container {
+      flex-direction: column;
+    }
+  
+    .responsive-container > div {
+      width: 100%;
+    }
+  
+    .text-heading {
+      margin-top: 1rem;
+      padding-left: var(--main-left-margin); /* optional */
+    }
+  }
+  
 
 .header {
     display: flex;

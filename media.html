@@ -15,22 +15,14 @@
                 <a href="index.html" class="header-link">Annie Stephenson</a>
             </h1>
         </div>
-        <div class="nav">
-            <div>
-                <a href="research.html">RESEARCH</a>
-            </div>
-            <div>
-                <a href="code.html">CODE</a>
-            </div>
-            <div>
-                <a href="media.html"class="light-title">MEDIA</a>
-            </div>
-            <div>
-                <a href="science-communication.html">SCIENCE COMMUNICATION</a>
-            </div>
-            <div>
-                <a href="about-me.html">ABOUT ME</a>
-            </div>
+        <div id="nav-placeholder"></div>
+        <script>
+          fetch("/nav.html")
+            .then(response => response.text())
+            .then(data => {
+              document.getElementById("nav-placeholder").innerHTML = data;
+            });
+        </script>
         </div>
     </header>
     <main>

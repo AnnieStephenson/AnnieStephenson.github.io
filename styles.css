@@ -51,6 +51,12 @@ body {
     padding-bottom: 4rem;/*50px;*/
 }
 
+@media screen and (max-width: 768px) {
+    .header {
+        padding-left: 5vw; /* or 0 if you want no left padding at all */
+      }
+}
+
 .header-link {
     text-decoration: none; /* No underline by default */
     color: inherit; /* Inherit the color from the parent element */
@@ -258,6 +264,14 @@ body {
     font-style: italic;
 }
 
+@media screen and (max-width: 768px) {
+    .text-block-bookmark {
+        padding-left: 5vw; /* or 0 if you want no left padding at all */
+        width: 100%;
+        padding-right: 5vw; /* ensures padding doesn’t cause overflow */
+      }
+}
+
 .text-block-research{
     display: flex;
     flex-direction: column;
@@ -356,13 +370,19 @@ body {
     flex-direction: column;
 }
 
+@media screen and (max-width: 768px) {
+    .social-media-main {
+        padding-left: 5vw; /* or 0 if you want no left padding at all */
+      }
+    
+}
+
 .social-media-item {
     font-family: 'Avenir', sans-serif;
     font-size: 13px;
     color: #777;
     width: 200px;
-    display: flex; /* This aligns the image and text in a row */
-    /*align-items: center; /* Vertically aligns the image and text */
+    display: flex;
     gap: 10px; /* Adds spacing between the image and text */
 }
 
@@ -399,6 +419,18 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: #fff;
     overflow: hidden;
+  }
+
+  @media screen and (max-width: 768px) {
+    .bookmark-container {
+        padding-left: 5vw; /* or 0 if you want no left padding at all */
+      }
+      
+    .bookmark-card {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
   }
 
   .bookmark-content {

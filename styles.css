@@ -36,6 +36,12 @@ body {
     text-decoration: underline; /* Underline on hover */
 }
 
+.nav-container {
+    position: relative;
+    width: 100%;
+    z-index: 10;
+  }
+
 .nav {
     display: flex;
     gap: 1rem;
@@ -48,22 +54,6 @@ body {
     padding-top: 5px; 
 }
 
-/* Mobile style */
-@media (max-width: 768px) {
-    .nav {
-      flex-direction: column;
-      align-items: center;
-      font-size: 12px;
-      gap: 0.5rem;
-      padding: 1rem 0;
-    }
-  
-    .nav a {
-      display: block;
-      padding: 0.5rem 1rem;
-    }
-  }
-
 .nav a:hover {
     text-decoration: underline; /* Add underline on hover */
 }
@@ -71,6 +61,51 @@ body {
 .nav a.light-title {
     color: #949494;
 }
+
+/* Hamburger toggle checkbox (hidden by default) */
+.nav-toggle {
+    display: none;
+  }
+  
+/* Hamburger icon label (☰) */
+.nav-toggle-label {
+    display: none;
+    font-size: 1.8rem;
+    cursor: pointer;
+    user-select: none;
+    padding-left: 2rem;
+  }
+
+/* Responsive styles for mobile */
+@media (max-width: 768px) {
+    .nav-toggle-label {
+      display: block;
+      padding-top: 0.5rem;
+    }
+  
+    .nav {
+      display: none; /* Hide nav by default on mobile */
+      flex-direction: column;
+      align-items: flex-start;
+      background-color: #f9f9f9;
+      padding: 1rem 2rem;
+      width: 100%;
+      position: absolute;
+      top: 3.2rem;
+      left: 0;
+      z-index: 100;
+      border-top: 1px solid #e0e0e0;
+    }
+  
+    .nav div {
+      width: 100%;
+      padding: 0.5rem 0;
+    }
+  
+    .nav-toggle:checked + .nav-toggle-label + .nav {
+      display: flex; /* Show nav when hamburger is toggled */
+    }
+  }
 
 .image-gallery {
     display: flex;

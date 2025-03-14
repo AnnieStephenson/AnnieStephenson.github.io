@@ -345,6 +345,7 @@ body {
 
 .social-media-main{
     display: flex;
+    align-items: flex-start;
     flex-wrap: wrap;
     width: 200px;
     justify-content: flex-start;
@@ -360,7 +361,7 @@ body {
     color: #777;
     width: 200px;
     display: flex; /* This aligns the image and text in a row */
-    align-items: center; /* Vertically aligns the image and text */
+    /*align-items: center; /* Vertically aligns the image and text */
     gap: 10px; /* Adds spacing between the image and text */
 }
 

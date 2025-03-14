@@ -213,8 +213,9 @@ body {
     flex-wrap: wrap;
     padding-top: 0px;
     padding-left: 3vw;
-    width: 40%;
-    margin: 0; 
+    padding-right: 3vw;
+    width: 45%;
+    margin: 0vw; 
     font-size: 15px;
     font-weight: 200;
     color:#656565;
@@ -277,8 +278,8 @@ body {
 @media screen and (max-width: 768px) {
     .text-block-research {
       width: 100%;
-      padding-left: 3vw;  
-      padding-right: 3vw; 
+      padding-left: 5vw;  
+      padding-right: 5vw; 
       box-sizing: border-box; /* ensures padding doesn’t cause overflow */
     }
   }

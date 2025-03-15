@@ -128,10 +128,12 @@ body {
     }
 
     .nav a {
-        width: 100%;          /* 👈 ensures background fills behind all text */
+        display: block; 
+        width: 100%;
         padding: 0.5rem 0;
         background-color: #f9f9f9; /* optional: helps ensure background is consistent */
         text-decoration: none;
+        box-sizing: border-box;
       }
   
     .nav div {

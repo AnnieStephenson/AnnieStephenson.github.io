@@ -430,6 +430,12 @@ body {
     overflow: hidden;
   }
 
+  .bookmark-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+
   @media screen and (max-width: 768px) {
     .bookmark-container {
         padding-left: 5vw; /* or 0 if you want no left padding at all */

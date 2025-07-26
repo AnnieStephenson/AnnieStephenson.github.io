@@ -488,14 +488,29 @@ body {
   }
 
   .bullet-list {
-    list-style-type: circle; /* Set bullet type to disc */
+    list-style-type: none; /* Set bullet type to disc */
     padding-left: 1vw; /* Adjust left padding to indent the list */
     margin: 0; /* Adjust margins if needed */
     gap: 10vw;
   }
 
+  .bullet-list li::before {
+  content: "– ";              /* en dash or em dash (—) */
+  margin-right: 0.5em;
+}
   @media (max-width: 768px) {
     :root {
       --main-left-margin: 5vw;
     }
   }
+
+.text-link {
+    color: #A09D3C;
+    text-decoration: none;
+    font-weight: 300;
+    display: inline;
+}
+
+.text-link:hover {
+    text-decoration: underline;
+}

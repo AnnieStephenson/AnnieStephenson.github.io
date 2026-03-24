@@ -21,6 +21,10 @@
             .then(response => response.text())
             .then(data => {
               document.getElementById("nav-placeholder").innerHTML = data;
+              document.querySelectorAll(".nav a").forEach(a => {
+                var href = a.getAttribute("href").replace(/^\//, "");
+                if (location.pathname.endsWith(href)) a.classList.add("light-title");
+              });
             });
         </script>
     </header>
@@ -33,9 +37,9 @@
                 <br>
             </p>
                 <ul class="bullet-list">
-                    <li style="margin-bottom: 1vh;"> How can we build and validate models that link individual behavior to emergent patterns in social systems of humans and/or AI agents?
-                    <li style="margin-bottom: 1vh;">  How do design features like frictions or incentives shape collective intelligence, cooperation, and coordination in social systems?
-                    <li style="margin-bottom: 1vh;"> What new dynamics and cultural shifts will emerge as AI becomes embedded in human society?
+                    <li style="margin-bottom: 1vh;"><span>How can we build and validate models that link individual behavior to emergent patterns in social systems of humans and/or AI agents?</span></li>
+                    <li style="margin-bottom: 1vh;"><span>How do design features like frictions or incentives shape collective intelligence, cooperation, and coordination in social systems?</span></li>
+                    <li style="margin-bottom: 1vh;"><span>What new dynamics and cultural shifts will emerge as AI becomes embedded in human society?</span></li>
                 </ul>
             <p>
                 <br>

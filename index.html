@@ -21,6 +21,10 @@
             .then(response => response.text())
             .then(data => {
               document.getElementById("nav-placeholder").innerHTML = data;
+              document.querySelectorAll(".nav a").forEach(a => {
+                var href = a.getAttribute("href").replace(/^\//, "");
+                if (location.pathname.endsWith(href)) a.classList.add("light-title");
+              });
             });
         </script>
         </div>
@@ -75,9 +79,8 @@
                 </div>
             </div>
             <div class="text-heading">
-                I use data and simulation to study how collective behaviors
-                <br>—such as coordination, cooperation, and group intelligence—
-                <br>emerge in human social systems, and how AI may shift these dynamics. 
+                I study AI systems and their effects on how people
+                <br>coordinate, cooperate, and think together. 
             </div>
         </div>
         <div>

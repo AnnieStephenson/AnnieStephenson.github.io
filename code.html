@@ -21,6 +21,10 @@
             .then(response => response.text())
             .then(data => {
               document.getElementById("nav-placeholder").innerHTML = data;
+              document.querySelectorAll(".nav a").forEach(a => {
+                var href = a.getAttribute("href").replace(/^\//, "");
+                if (location.pathname.endsWith(href)) a.classList.add("light-title");
+              });
             });
         </script>
     </header>

@@ -501,10 +501,16 @@ body {
     gap: 10vw;
   }
 
+  .bullet-list li {
+    display: flex;
+    align-items: flex-start;
+  }
+
   .bullet-list li::before {
-  content: "– ";              /* en dash or em dash (—) */
-  margin-right: 0.5em;
-}
+    content: "–";
+    margin-right: 0.5em;
+    flex-shrink: 0;
+  }
   @media (max-width: 768px) {
     :root {
       --main-left-margin: 5vw;
